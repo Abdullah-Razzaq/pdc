@@ -1,10 +1,13 @@
 # LangChain Core
 langchain
 langchain-core
+langchain_community
+PyMuPDF
 
 # OpenAI Integration
 langchain-openai
 openai
+sentence-transformers
 
 # Anthropic Integration
 langchain-anthropic
@@ -20,6 +23,7 @@ huggingface-hub
 
 # Environment Variable Management
 python-dotenv
+python-multipart
 
 # Machine Learning Utilities
 numpy
@@ -27,3 +31,6 @@ scikit-learn
 
 #vectorDB
 chromadb
+
+uvicorn
+fastapi

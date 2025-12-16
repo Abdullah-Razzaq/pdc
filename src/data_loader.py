@@ -24,7 +24,7 @@ def load_docs(data_directory: str) -> List:
             loader = PyMuPDFLoader(str(pdf_path))
             documents = loader.load()
 
-            # ✅ Attach dataset-level metadata
+            # Attach dataset-level metadata
             for doc in documents:
                 doc.metadata["source_pdf"] = pdf_path.name
                 doc.metadata["source_path"] = str(pdf_path)
